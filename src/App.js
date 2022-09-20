@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import LandingPage from './components/landingPage/LandingPage';
