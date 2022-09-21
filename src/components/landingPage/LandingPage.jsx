@@ -1,8 +1,13 @@
 import React from 'react'
+import './landingPage.css'
 
 const LandingPage = () => {
   return (
-    <div>This will be a brief introduction of who I am</div>
+    <div className='brand-statement'>
+      Hi, my name is Ryan Caruth.
+      <br />
+      I am a full-stack developer
+    </div>
   )
 }
 
