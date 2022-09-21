@@ -5,20 +5,22 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="logo">
-        logo
-        <span className="social-icons">icons</span>
+      <div className="top-logo">RC</div>
+        <hr />
+        <div className="bottom-logo">Portfolio</div>
       </div>
-        <nav>
-          <ul className="sections">
-            <li>About</li>
-            <hr />
-            <li>Skills</li>
-            <hr />
-            <li>Projects</li>
-            <hr />
-            <li>Contact</li>
-          </ul>
-        </nav>
+      <div className="social-icons">icons</div>
+      <nav>
+        <ul className="sections">
+          <li>About</li>
+          <hr />
+          <li>Skills</li>
+          <hr />
+          <li>Projects</li>
+          <hr />
+          <li>Contact</li>
+        </ul>
+      </nav>
     </div>
   );
 };
