@@ -1,0 +1,10 @@
+ul {
+    column-count: 3;
+    text-align: center;
+}
+
+h1 {
+    color: #2568FB;
+    font-size: 48px;
+    margin: 60px;
+}
