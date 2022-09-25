@@ -1,5 +1,6 @@
 import React from "react";
 import './contact.css'
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
           fields are required.
         </p>
       </div>
+      <ContactForm />
     </div>
   );
 };
