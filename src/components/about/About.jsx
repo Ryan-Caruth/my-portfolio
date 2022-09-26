@@ -1,9 +1,11 @@
 import React from "react";
+import { forwardRef } from "react";
 import "./about.css";
 
-const About = () => {
+const About = forwardRef(( { aboutMe }, ref ) => {
+
   return (
-    <div className="about-container">
+    <div ref={aboutMe} className="about-container">
       <h1>About Me</h1>
       <div className="about-picture">Icon</div>
       <div className="text-section">
@@ -24,12 +26,12 @@ const About = () => {
         </p>
         <br />
         <p>
-          Please feel free to contact me <a href="./google.com"> here </a>{" "}
+          Please feel free to contact me <a href="mailto:ryan.caruth2@gmail.com">here</a>
           regarding any opportunitities
         </p>
       </div>
     </div>
   );
-};
+});
 
 export default About;

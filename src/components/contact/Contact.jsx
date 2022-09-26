@@ -1,10 +1,11 @@
 import React from "react";
+import { forwardRef } from "react";
 import './contact.css'
 import ContactForm from "./ContactForm";
 
-const Contact = () => {
+const Contact = forwardRef(({ contacts }, ref) => {
   return (
-    <div className="contact-container">
+    <div ref={contacts} className="contact-container">
       <h1>Let's Connect</h1>
       <div className="contact-text">
         <p>
@@ -17,6 +18,6 @@ const Contact = () => {
       <ContactForm />
     </div>
   );
-};
+});
 
 export default Contact;

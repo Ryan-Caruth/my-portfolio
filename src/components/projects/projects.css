@@ -7,5 +7,24 @@
   margin-right: auto;
   text-align: end;
   width: 285px;
-  height: 350px;
+  height: 64px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-1, .project-2, .project-3, .portfolio {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  background-color: #2568FB;
+  border: 10px solid #fff;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
 }
