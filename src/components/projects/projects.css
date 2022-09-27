@@ -19,12 +19,25 @@
 .project-1, .project-2, .project-3, .portfolio {
   text-align: center;
   width: 200px;
-  height: 300px;
+  height: 330px;
   background-color: #2568FB;
   border: 10px solid #fff;
   margin: 30px;
+  font-size: 10px;
 }
 
 h2 {
   text-align: center;
+}
+
+#firstProject, #secondProject, #project3, #project4 {
+  display: flex;
+  object-position: top;
+  width: 100%;
+  object-fit: contain;
+}
+
+#project1Text, #project2Text, #project3Text, #project4Text {
+  margin: 10px;
+  font-size: 11px;
 }
