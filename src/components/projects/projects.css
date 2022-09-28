@@ -19,7 +19,7 @@
 .project-1, .project-2, .project-3, .portfolio {
   text-align: center;
   width: 200px;
-  height: 330px;
+  height: 410px;
   background-color: #2568FB;
   border: 10px solid #fff;
   margin: 30px;
@@ -40,4 +40,29 @@ h2 {
 #project1Text, #project2Text, #project3Text, #project4Text {
   margin: 10px;
   font-size: 11px;
+}
+
+button {
+  background-color: #FECD45;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#project1-button {
+  margin-top: 85px;
+}
+
+#project2-button {
+  margin-top: 98px;
+}
+
+#project4-button {
+  margin-top: 112px;
+}
+
+#project1-button:hover, #project2-button:hover, #project3-button:hover, #project4-button:hover {
+  background-color: #FFC011;
+  cursor: pointer;
 }
