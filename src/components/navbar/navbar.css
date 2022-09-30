@@ -59,7 +59,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 350px;
+  width: 275px;
   margin-right: 20px;
   font-weight: bold;
 }
@@ -72,11 +72,11 @@ hr {
   height: 50px;
 }
 
-li {
+.headerSection {
   list-style: none;
   cursor: pointer;
 }
 
-li:hover {
+.headerSection:hover {
   color: #FECD45;
 }
