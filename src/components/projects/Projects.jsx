@@ -12,9 +12,6 @@ const Projects = forwardRef(({ projects }, ref) => {
       <div className="header">
         <h1 className="my-projects-heading">My Projects</h1>
       </div>
-      <div className="instruction-text">
-        <p>(Hover over any project to learn more)</p>
-      </div>
       <div className="projects">
         <div className="project-1">
           <h2>Text-Based Adventure</h2>
