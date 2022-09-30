@@ -61,9 +61,22 @@ span {
   justify-content: space-between;
   width: 350px;
   margin-right: 20px;
+  font-weight: bold;
+}
+
+hr {
+  color: black;
+  background-color: black;
+  border: solid;
+  border-width: 1px;
+  height: 50px;
 }
 
 li {
   list-style: none;
   cursor: pointer;
+}
+
+li:hover {
+  color: #FECD45;
 }
