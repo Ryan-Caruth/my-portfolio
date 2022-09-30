@@ -1,13 +1,16 @@
 import React from "react";
 import { forwardRef } from "react";
+import portfolioPicture from '../../assests/IMG_20200813_140454646_HDR.jpg'
 import "./about.css";
 
 const About = forwardRef(( { aboutMe }, ref ) => {
 
   return (
     <div ref={aboutMe} className="about-container">
-      <h1>About Me</h1>
-      <div className="about-picture">Icon</div>
+      <h1 id="aboutMeHeader">About Me</h1>
+      <div className="about-picture">
+        <img id="myPicture" src={portfolioPicture} alt="My profile pic"></img>
+      </div>
       <div className="text-section">
         <p>
           I am a passionate and self-motivated Full Stack Developer from
@@ -26,8 +29,7 @@ const About = forwardRef(( { aboutMe }, ref ) => {
         </p>
         <br />
         <p>
-          Please feel free to contact me <a href="mailto:ryan.caruth2@gmail.com">here</a>
-          regarding any opportunitities
+          Please feel free to contact me <a href="mailto:ryan.caruth2@gmail.com">here</a> regarding any opportunitities
         </p>
       </div>
     </div>
