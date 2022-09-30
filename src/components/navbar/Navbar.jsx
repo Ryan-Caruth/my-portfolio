@@ -13,14 +13,17 @@ const Navbar = ({ aboutMe, contacts, skills, projects}) => {
   return (
     <div className="nav">
       <div className="nav-left">
-        <div className="logo" onClick={() => {
-          window.scrollTo({
-            top: 0,
-            behavior:'smooth'
-          })
-        }}>
+        <div
+          className="logo"
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
           <div className="top-logo">RC</div>
-            <hr id="angled-line" />
+          <hr id="angled-line" />
           <div className="bottom-logo">Portfolio</div>
         </div>
         <div className="social-icons">
@@ -50,13 +53,26 @@ const Navbar = ({ aboutMe, contacts, skills, projects}) => {
       </div>
       <nav>
         <ul className="sections">
-          <li onClick={() => scrollToLocation(aboutMe)}>About</li>
+          <li
+            className="headerSection"
+            onClick={() => scrollToLocation(aboutMe)}
+          >
+            About
+          </li>
           <hr />
-          <li onClick={() => scrollToLocation(skills)}>Skills</li>
+          <li
+            className="headerSection"
+            onClick={() => scrollToLocation(skills)}
+          >
+            Skills
+          </li>
           <hr />
-          <li onClick={() => scrollToLocation(projects)}>Projects</li>
-          <hr />
-          <li onClick={() => scrollToLocation(contacts)}>Contact</li>
+          <li
+            className="headerSection"
+            onClick={() => scrollToLocation(projects)}
+          >
+            Projects
+          </li>
         </ul>
       </nav>
     </div>
