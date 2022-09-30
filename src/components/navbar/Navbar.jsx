@@ -20,7 +20,7 @@ const Navbar = ({ aboutMe, contacts, skills, projects}) => {
           })
         }}>
           <div className="top-logo">RC</div>
-          <hr id="angled-line" />
+            <hr id="angled-line" />
           <div className="bottom-logo">Portfolio</div>
         </div>
         <div className="social-icons">
