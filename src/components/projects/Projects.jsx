@@ -59,6 +59,7 @@ const Projects = forwardRef(({ projects }, ref) => {
             translation sevices and educational resources. The app includes a
             real-time chat feature and booking system
           </p>
+          <div className="project3-buttons">
           <button id="project3-button"
             onClick={() =>
               (window.location.href =
@@ -75,6 +76,7 @@ const Projects = forwardRef(({ projects }, ref) => {
           >
             Github - client
           </button>
+          </div>
         </div>
         <div className="portfolio">
           <h2>My Site</h2>

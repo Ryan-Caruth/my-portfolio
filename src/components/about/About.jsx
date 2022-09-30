@@ -17,10 +17,10 @@ const About = forwardRef(( { aboutMe }, ref ) => {
           Calgary, Alberta. I enjoy the daily problem-solving challenges of
           writing code, discovering new features and the functunality I am able
           to create. I am transitioning into tech from a customer service
-          industry. Working those customer service jobs allowed me to grow as a
+          industry. Working customer service jobs allowed me to grow as a
           person and build the much needed soft skills including empathy,
           patience and open-mindedness. I am eager to combine my previous
-          background with development work
+          background with development work.
         </p>
         <br />
         <p>

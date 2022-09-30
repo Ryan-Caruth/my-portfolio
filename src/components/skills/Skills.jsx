@@ -4,7 +4,7 @@ import './skills.css'
 
 const Skills = forwardRef(({ skills }, ref) => {
   return (
-    <div ref={skills}>
+    <div ref={skills} className="mySkills">
       <h1>My Skills</h1>
       <ul>
         <li>HTML5</li>
