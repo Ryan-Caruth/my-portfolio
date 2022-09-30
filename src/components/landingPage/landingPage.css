@@ -7,3 +7,16 @@
   font-size: 64px;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 847px) {
+  .brand-statement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:110px;
+  height: 100vh;
+  color: #2568FB;
+  font-size: 64px;
+  font-weight: bold;
+}
+}
