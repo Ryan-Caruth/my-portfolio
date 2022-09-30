@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import About from './components/about/About';
-import Contact from './components/contact/Contact';
 import LandingPage from './components/landingPage/LandingPage';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
@@ -20,7 +19,6 @@ function App() {
       <About aboutMe={aboutMe} />
       <Skills skills={skills} />
       <Projects projects={projects} />
-      <Contact contacts={contacts} />
     </div>
   );
 }
